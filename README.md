@@ -1,4 +1,4 @@
-# Henequet brewery
+# Mieres del Camín Apartamentos
 
 Demo de frontal para el hipotético alojamiento "Mieres del Camín Apartamentos", realizada con Vue.js.
 
