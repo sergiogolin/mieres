@@ -1,0 +1,46 @@
+:root {
+  --font-family-primary: "Roboto Slab", serif;
+  --font-family-secondary: "Roboto", sans-serif;
+
+  --color-primary: #003970;
+  --color-primary-light: #4ba7ee;
+  --color-primary-dark: #001841;
+
+  --color-white: #ffffff;
+  --color-black: #000000;
+
+  --color-gray-lighter: #fafafa;
+  --color-gray-light: #e0e0e0;
+  --color-gray-dark: #4e5156;
+
+  --color-red: #db171d;
+  --color-orange: #ffab48;
+  --color-yellow: #ffef63;
+
+  --font-h1: bold 24px var(--font-family-primary);
+  --font-h2: 24px var(--font-family-primary);
+  --font-h3: bold 18px var(--font-family-primary);
+  --font-h4: 16px var(--font-family-primary);
+  --font-h5: bold 16px var(--font-family-secondary);
+  --font-h6: 16px var(--font-family-secondary);
+  --font-subtitle-1: 15px var(--font-family-secondary);
+  --font-subtitle-2: bold 14px var(--font-family-secondary);
+  --font-text-body: 14px var(--font-family-secondary);
+  --font-text-caption: 12px var(--font-family-secondary);
+}
+
+
+@media(min-width: 768px) {
+  :root {
+    --font-h1: bold 38px var(--font-family-primary);
+    --font-h2: 30px var(--font-family-primary);
+    --font-h3: bold 24px var(--font-family-primary);
+    --font-h4: 14px var(--font-family-primary);
+    --font-h5: bold 16px var(--font-family-secondary);
+    --font-h6: 16px var(--font-family-secondary);
+    --font-subtitle-1: 15px var(--font-family-secondary);
+    --font-subtitle-2: bold 19px var(--font-family-secondary);
+    --font-text-body: 20px var(--font-family-secondary);
+    --font-text-caption: 14px var(--font-family-secondary);
+  }
+}

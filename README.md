@@ -1,29 +1,33 @@
-# mieres
+# Henequet brewery
 
-## Project setup
+Demo de frontal para el hipotético alojamiento "Mieres del Camín Apartamentos", realizada con Vue.js.
+
+## Comenzando
+Puedes clonar el proyecto con GIT, o descargarte el código comprimido y descomprimirlo en tu equipo local.
+
+### Pre-requisitos
+Para poder compilar el proyecto, necesitarás tener instalada una copia reciente de Node.js. 
+
+### Instalación
+Tras haber descargado o clonado el proyecto, ejecuta:
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Ejecución
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar para pasar a producción
 ```
 npm run build
 ```
 
-### Run your unit tests
+## Características
+- Los datos mostrados se obtienen de la api pública:
 ```
-npm run test:unit
+https://punkapi.com/documentation/v2
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- La pestaña de bebidas solo muestra las 10 primeras bebidas que devuelve la api.
+- Se ha incluido un marcador de color para la graduación alcohólica de las bebidas: <= 5 grados (amarillo), > 5 y <= 10 grados (naranja), y > 10 grados (rojo).
